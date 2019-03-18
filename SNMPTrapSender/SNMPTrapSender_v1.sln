@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNMPTrapSender_v1", "SNMPTrapSender_v1\SNMPTrapSender_v1.csproj", "{E08CDD03-94A7-40FE-9FEF-211E81C1CB6C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E08CDD03-94A7-40FE-9FEF-211E81C1CB6C}.Debug.ActiveCfg = Debug|.NET
+		{E08CDD03-94A7-40FE-9FEF-211E81C1CB6C}.Debug.Build.0 = Debug|.NET
+		{E08CDD03-94A7-40FE-9FEF-211E81C1CB6C}.Release.ActiveCfg = Release|.NET
+		{E08CDD03-94A7-40FE-9FEF-211E81C1CB6C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+<Configuration>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="D:\Projects\C#.NETs\MSMQController\Controller.cs" offset="0" line="57" column="0" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Messaging" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Messaging.AccessControlEntryType">
+      <Item value="Allow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="Close" priority="1" />
+      <Item value="SetPermissions" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="Equals" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Messaging.MessageQueueAccessRights">
+      <Item value="FullControl" priority="0" />
+      <Item value="ReceiveMessage" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+</Configuration>

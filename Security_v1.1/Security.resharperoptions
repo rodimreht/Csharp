@@ -1,0 +1,254 @@
+<Configuration>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="D:\Projects\C#.NETs\Security\Enhanced64\Form1.cs" offset="6307" line="214" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\Thermidor.EnhancedSecurity\Enhanced64.cs" offset="6162" line="21" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\Enhanced64\CEnhanced64.cs" offset="4210" line="0" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\DES\CDES.cs" offset="422" line="0" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\Base64\Form1.cs" offset="2945" line="99" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\PEM\CPEM.cs" offset="0" line="38" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\Rijndael\CMain.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\NPKI\yessign.cs" offset="0" line="8" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\NPKI\CSEED.cs" offset="0" line="1430" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\MD5_SHA1\CSHA256.cs" offset="0" line="-1" column="-1" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\MD5_SHA1\CSHA1.cs" offset="0" line="-1" column="-1" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\SEED\CMain.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\SEED\CSEED.cs" offset="0" line="1407" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\PEM\Form1.cs" offset="0" line="145" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\MD5_SHA1\Form1.cs" offset="0" line="-1" column="-1" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\DES\Form1.cs" offset="6521" line="178" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\DES\Form2.cs" offset="7580" line="216" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\Rijndael\CAES.cs" offset="0" line="263" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\Rijndael\CRijndael.cs" offset="285" line="29" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\TripleDES\CTripleDES.cs" offset="0" line="15" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\TripleDES\Form1.cs" offset="7322" line="211" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\Security\nRSA\TestMain.cs" offset="941" line="20" column="0" />
+      <TrackedFile location="D:\Projects\ASP.NETs\PublicKey\KeyPair.cs" offset="780" line="87" column="0" />
+      <TrackedFile location="D:\Projects\ASP.NETs\PublicKey\PKService.asmx.cs" offset="607" line="0" column="0" />
+      <TrackedFile location="D:\Projects\ASP.NETs\PublicKey\Test.aspx" offset="582" line="0" column="0" />
+      <TrackedFile location="D:\Projects\ASP.NETs\PublicKey\Test.aspx.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="D:\Projects\ASP.NETs\PublicKey\scripts\Barrett.jse" offset="0" line="-1" column="-1" />
+      <TrackedFile location="D:\Projects\ASP.NETs\PublicKey\scripts\BigInt.jse" offset="0" line="-1" column="-1" />
+      <TrackedFile location="D:\Projects\ASP.NETs\PublicKey\scripts\RSA.jse" offset="0" line="73" column="0" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:string">
+      <Item value="Split" priority="0" />
+      <Item value="ToCharArray" priority="4" />
+      <Item value="Trim" priority="1" />
+      <Item value="Length" priority="3" />
+      <Item value="Equals" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:int">
+      <Item value="ToString" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="GetDirectories" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Web.Services2.Security.X509.X509CertificateStore.StoreProvider">
+      <Item value="File" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Web.Services2.Security.X509.X509Certificate">
+      <Item value="GetIssuerName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PublicKey.BigInt.bigOne">
+      <Item value="digits" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="Default" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="ToString" priority="0" />
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PublicKey.nRSA">
+      <Item value="Encrypt" priority="0" />
+      <Item value="Decrypt" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Web.Services2.Security.X509.X509Certificate">
+      <Item value="CreateFromCertFile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PublicKey.PKTest">
+      <Item value="Run" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Enhanced64.CEnhanced64">
+      <Item value="Encrypt" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Cryptography.KeySizes[]">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PublicKey.KeyPair">
+      <Item value="EncryptionExponent" priority="1" />
+      <Item value="ToString" priority="0" />
+      <Item value="Modulus" priority="1" />
+      <Item value="DecryptionExponent" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Hashtable">
+      <Item value="Count" priority="0" />
+      <Item value="ContainsKey" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="GetEnvironmentVariable" priority="0" />
+      <Item value="SpecialFolder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment.SpecialFolder.ProgramFiles">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding.ASCII">
+      <Item value="GetString" priority="0" />
+      <Item value="GetBytes" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Cryptography.RSAParameters">
+      <Item value="Exponent" priority="0" />
+      <Item value="D" priority="1" />
+      <Item value="Modulus" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Web.Services2.Security">
+      <Item value="Cryptography" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding.Default">
+      <Item value="GetString" priority="3" />
+      <Item value="GetBytes" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:byte[]">
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text">
+      <Item value="Encoding" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft">
+      <Item value="Web.Services2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:char[]">
+      <Item value="ToString" priority="1" />
+      <Item value="Length" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="OpenRead" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PublicKey2">
+      <Item value="Person" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Cryptography.Rijndael">
+      <Item value="CreateEncryptor" priority="0" />
+      <Item value="BlockSize" priority="1" />
+      <Item value="Padding" priority="1" />
+      <Item value="Key" priority="0" />
+      <Item value="IV" priority="0" />
+      <Item value="Mode" priority="1" />
+      <Item value="KeySize" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PublicKey">
+      <Item value="KeyPair" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Expires" priority="0" />
+      <Item value="AppendHeader" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.SortedList">
+      <Item value="Keys" priority="1" />
+      <Item value="Count" priority="0" />
+      <Item value="RemoveAt" priority="0" />
+      <Item value="GetKey" priority="0" />
+      <Item value="GetByIndex" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ArrayList">
+      <Item value="ToArray" priority="0" />
+      <Item value="RemoveAt" priority="0" />
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="PersistKeyInCsp" priority="0" />
+      <Item value="Substring" priority="1" />
+      <Item value="Close" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="Length" priority="2" />
+      <Item value="Exponent" priority="0" />
+      <Item value="Append" priority="0" />
+      <Item value="Split" priority="0" />
+      <Item value="GetDirectories" priority="1" />
+      <Item value="UseCount" priority="3" />
+      <Item value="seedDecryptString" priority="0" />
+      <Item value="ToUpper" priority="0" />
+      <Item value="D" priority="0" />
+      <Item value="Position" priority="0" />
+      <Item value="GetFiles" priority="0" />
+      <Item value="Certificate" priority="0" />
+      <Item value="digits" priority="13" />
+      <Item value="IndexOf" priority="0" />
+      <Item value="ToString" priority="1" />
+      <Item value="Read" priority="1" />
+      <Item value="Decrypt" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:int[]">
+      <Item value="Clone" priority="1" />
+      <Item value="Length" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="ToString" priority="1" />
+      <Item value="Length" priority="0" />
+      <Item value="Append" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Nets.IM.Common">
+      <Item value="ICryptoBase" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Web.Services2.Security.Cryptography.AES128">
+      <Item value="Key" priority="2" />
+      <Item value="EncryptionFormatter" priority="1" />
+      <Item value="KeySize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment.SpecialFolder">
+      <Item value="ProgramFiles" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToBase64String" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Nets.IM">
+      <Item value="Common" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Web.Services2">
+      <Item value="Security" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Web.Services2.Security.Cryptography.EncryptionFormatter">
+      <Item value="Encrypt" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Security">
+      <Item value="SecurityException" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Cryptography.RSACryptoServiceProvider">
+      <Item value="ToXmlString" priority="1" />
+      <Item value="PersistKeyInCsp" priority="2" />
+      <Item value="ExportParameters" priority="0" />
+      <Item value="Encrypt" priority="0" />
+      <Item value="Decrypt" priority="1" />
+      <Item value="KeySize" priority="2" />
+      <Item value="ImportParameters" priority="1" />
+      <Item value="FromXmlString" priority="0" />
+      <Item value="LegalKeySizes" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Nets">
+      <Item value="Security" priority="0" />
+      <Item value="IM" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+</Configuration>

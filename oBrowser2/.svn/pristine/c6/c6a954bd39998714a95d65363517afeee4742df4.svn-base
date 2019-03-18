@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="oBStatService.asmx.cs" Class="oBrowser2Stat.oBStatService" %>

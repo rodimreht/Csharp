@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="DirService.asmx.cs" Class="iManService.DirService" %>

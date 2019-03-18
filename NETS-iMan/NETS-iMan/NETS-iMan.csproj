@@ -1,0 +1,324 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0DE5A066-565E-40B9-A3A9-126FDCD5B036}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NETS_iMan</RootNamespace>
+    <AssemblyName>NETS-iMan</AssemblyName>
+    <ApplicationIcon>logoi.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>7FA89B4B37AFDE8F68331839DA09C11DB3677035</ManifestCertificateThumbprint>
+    <ManifestKeyFile>NETS-iMan_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>D:\Projects\C#.NETs\NETS-iMan\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://sso.nets.co.kr/iMan/</InstallUrl>
+    <UpdateUrl>http://sso.nets.co.kr/iMan/</UpdateUrl>
+    <SupportUrl>http://dev.nets.co.kr/</SupportUrl>
+    <ProductName>NETS-ⓘMan v1.0</ProductName>
+    <PublisherName>NETS</PublisherName>
+    <WebPage>NETSiMAN.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationVersion>1.0.0.90</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TEST</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrowserExtendedNavigatingEventArgs.cs" />
+    <Compile Include="ChatLogger.cs" />
+    <Compile Include="ClientSocket.cs" />
+    <Compile Include="clpNativeObject.cs" />
+    <Compile Include="ErrorReport.cs" />
+    <Compile Include="ExtendedWebBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmChatHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChatHistory.Designer.cs">
+      <DependentUpon>frmChatHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOption.Designer.cs">
+      <DependentUpon>frmOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPicture.Designer.cs">
+      <DependentUpon>frmPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logger.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxEx.cs" />
+    <Compile Include="NameObjectCollection.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="NISecurity.cs" />
+    <Compile Include="NIUtil.cs" />
+    <Compile Include="NotifyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotifyWindow.Designer.cs">
+      <DependentUpon>NotifyWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NVItem.cs" />
+    <Compile Include="PrivateMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrivateMessage.Designer.cs">
+      <DependentUpon>PrivateMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\iManWebsvc\DirService.wsdl" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RichTextBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ServerSocket.cs" />
+    <Compile Include="SettingsHelper.cs" />
+    <Compile Include="SoundPlayer.cs" />
+    <Compile Include="StateObject.cs" />
+    <Compile Include="StickyWindow.cs" />
+    <Compile Include="P2PCommon.cs" />
+    <Compile Include="UnsafeNativeMethods.cs" />
+    <Compile Include="UrlContext.cs" />
+    <Compile Include="Web References\chatWebsvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\iManWebsvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WebCall.cs" />
+    <Compile Include="OfflineMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfflineMessage.Designer.cs">
+      <DependentUpon>OfflineMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Win32.cs" />
+    <Compile Include="GroupMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupMessage.Designer.cs">
+      <DependentUpon>GroupMessage.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\0.bmp" />
+    <Content Include="Icons\1.bmp" />
+    <Content Include="Icons\2.bmp" />
+    <Content Include="Icons\3.bmp" />
+    <Content Include="Icons\box1.gif" />
+    <Content Include="Icons\box2.gif" />
+    <Content Include="Icons\box3.gif" />
+    <Content Include="Icons\box4.gif" />
+    <Content Include="Icons\box5.gif" />
+    <Content Include="Icons\exit.ico" />
+    <Content Include="Icons\files.ico" />
+    <Content Include="Icons\groupH.ico" />
+    <Content Include="Icons\homepage.ico" />
+    <Content Include="Icons\iexplore.ico" />
+    <Content Include="Icons\options.ico" />
+    <Content Include="Icons\say.ico" />
+    <Content Include="Icons\search.ico" />
+    <Content Include="Icons\show.ico" />
+    <Content Include="Icons\user.ico" />
+    <Content Include="Icons\zzokji.ico" />
+    <Content Include="Icons\4.bmp" />
+    <Content Include="logo1.gif" />
+    <Content Include="logo2.gif" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChatHistory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmChatHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOption.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPicture.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logoi1.ico" />
+    <None Include="NETS-iMan_TemporaryKey.pfx" />
+    <None Include="Web References\chatWebsvc\ChatService.wsdl" />
+    <None Include="Web References\chatWebsvc\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\iManWebsvc\DirService.disco" />
+    <None Include="Web References\iManWebsvc\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="logoi2.ico" />
+    <Content Include="logoi.ico" />
+    <Content Include="NETSiMAN.htm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="logoi4.ico" />
+    <EmbeddedResource Include="Sounds\newmsg.wav" />
+    <EmbeddedResource Include="Sounds\newoffmsg.wav" />
+    <None Include="release_note.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="logoi3.ico" />
+    <None Include="Web References\chatWebsvc\ChatService.disco" />
+    <EmbeddedResource Include="offline.ico" />
+    <EmbeddedResource Include="PrivateMessage.resx">
+      <DependentUpon>PrivateMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfflineMessage.resx">
+      <DependentUpon>OfflineMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupMessage.resx">
+      <DependentUpon>GroupMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://sso.nets.co.kr/iManService/ChatService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\chatWebsvc\</RelPath>
+      <UpdateFromURL>http://sso.nets.co.kr/iManService/ChatService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>NETS_iMan_chatWebsvc_ChatService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://sso.nets.co.kr/iManService/DirService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\iManWebsvc\</RelPath>
+      <UpdateFromURL>http://sso.nets.co.kr/iManService/DirService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>NETS_iMan_iManWebsvc_DirService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>COPY /Y "$(TargetDir)release_note.txt" "$(SolutionDir)"
+COPY /Y "$(TargetDir)NETSiMAN.htm" "$(SolutionDir)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

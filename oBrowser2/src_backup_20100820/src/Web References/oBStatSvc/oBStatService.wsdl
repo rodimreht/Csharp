@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="StatLog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="uni" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StatLogResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="StatLogSoapIn">
+    <wsdl:part name="parameters" element="tns:StatLog" />
+  </wsdl:message>
+  <wsdl:message name="StatLogSoapOut">
+    <wsdl:part name="parameters" element="tns:StatLogResponse" />
+  </wsdl:message>
+  <wsdl:portType name="oBStatServiceSoap">
+    <wsdl:operation name="StatLog">
+      <wsdl:input message="tns:StatLogSoapIn" />
+      <wsdl:output message="tns:StatLogSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="oBStatServiceSoap" type="tns:oBStatServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StatLog">
+      <soap:operation soapAction="http://tempuri.org/StatLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="oBStatServiceSoap12" type="tns:oBStatServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StatLog">
+      <soap12:operation soapAction="http://tempuri.org/StatLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="oBStatService">
+    <wsdl:port name="oBStatServiceSoap" binding="tns:oBStatServiceSoap">
+      <soap:address location="http://61.74.158.83/obstat/oBStatService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="oBStatServiceSoap12" binding="tns:oBStatServiceSoap12">
+      <soap12:address location="http://61.74.158.83/obstat/oBStatService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

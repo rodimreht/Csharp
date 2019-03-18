@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSid", "GetSid\GetSid.csproj", "{E5BD2949-76F7-4293-BFF7-C435D90C39AB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E5BD2949-76F7-4293-BFF7-C435D90C39AB}.Debug.ActiveCfg = Debug|.NET
+		{E5BD2949-76F7-4293-BFF7-C435D90C39AB}.Debug.Build.0 = Debug|.NET
+		{E5BD2949-76F7-4293-BFF7-C435D90C39AB}.Release.ActiveCfg = Release|.NET
+		{E5BD2949-76F7-4293-BFF7-C435D90C39AB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

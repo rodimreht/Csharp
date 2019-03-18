@@ -1,0 +1,14 @@
+//***Creating an Attribute***
+DirectoryEntry rootDse = new DirectoryEntry("LDAP://RootDSE");
+string schemaNC = (string)rootDse.Properties["schemaNamingContext"].Value;
+DirectoryEntry schemaEntry = new DirectoryEntry("LDAP://" + schemaNC);
+DirectoryEntry attribute = schemaEntry.Children.Add("cn=attrTest04",
+"attributeSchema");
+attribute.Properties["attributeId"].Add("1.2.840.113556.1.4.7000.233.28688.2
+8684.8.113567.421.2001541.816060");
+attribute.Properties["oMSyntax"].Add(20);
+attribute.Properties["attributeSyntax"].Add("2.5.5.4");
+attribute.Properties["isSingleValued"].Add(true);
+attribute.Properties["lDAPDisplayName"].Add("attrTest04");
+attribute.CommitChanges();
+Console.WriteLine("done");

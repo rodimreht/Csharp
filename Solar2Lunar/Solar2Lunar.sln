@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solar2Lunar", "Solar2Lunar.csproj", "{85AC1EA4-809B-4354-A464-69FABAAA82C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{C52DFD12-E9EF-4848-862B-11A63A13FA87}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{85AC1EA4-809B-4354-A464-69FABAAA82C3}.Debug.ActiveCfg = Debug|.NET
+		{85AC1EA4-809B-4354-A464-69FABAAA82C3}.Debug.Build.0 = Debug|.NET
+		{85AC1EA4-809B-4354-A464-69FABAAA82C3}.Release.ActiveCfg = Release|.NET
+		{85AC1EA4-809B-4354-A464-69FABAAA82C3}.Release.Build.0 = Release|.NET
+		{C52DFD12-E9EF-4848-862B-11A63A13FA87}.Debug.ActiveCfg = Debug|.NET
+		{C52DFD12-E9EF-4848-862B-11A63A13FA87}.Debug.Build.0 = Debug|.NET
+		{C52DFD12-E9EF-4848-862B-11A63A13FA87}.Release.ActiveCfg = Release|.NET
+		{C52DFD12-E9EF-4848-862B-11A63A13FA87}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

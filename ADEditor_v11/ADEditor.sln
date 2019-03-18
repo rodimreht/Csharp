@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADEditor", "ADEditor.csproj", "{D0812D26-C18C-4D81-A6C0-8D783C3E223E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D0812D26-C18C-4D81-A6C0-8D783C3E223E}.Debug.ActiveCfg = Debug|.NET
+		{D0812D26-C18C-4D81-A6C0-8D783C3E223E}.Debug.Build.0 = Debug|.NET
+		{D0812D26-C18C-4D81-A6C0-8D783C3E223E}.Release.ActiveCfg = Release|.NET
+		{D0812D26-C18C-4D81-A6C0-8D783C3E223E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

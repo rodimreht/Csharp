@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETS-iMan", "NETS-iMan\NETS-iMan.csproj", "{0DE5A066-565E-40B9-A3A9-126FDCD5B036}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iManService", "iManService\iManService.csproj", "{ABF02DF4-26F2-48CC-BFB5-B66535BC9C9D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iManP2PService", "iManP2PService\iManP2PService.csproj", "{B4366C8C-CF79-4E76-B5E3-DC6342781789}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DE5A066-565E-40B9-A3A9-126FDCD5B036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE5A066-565E-40B9-A3A9-126FDCD5B036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE5A066-565E-40B9-A3A9-126FDCD5B036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE5A066-565E-40B9-A3A9-126FDCD5B036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF02DF4-26F2-48CC-BFB5-B66535BC9C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF02DF4-26F2-48CC-BFB5-B66535BC9C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF02DF4-26F2-48CC-BFB5-B66535BC9C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF02DF4-26F2-48CC-BFB5-B66535BC9C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4366C8C-CF79-4E76-B5E3-DC6342781789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4366C8C-CF79-4E76-B5E3-DC6342781789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4366C8C-CF79-4E76-B5E3-DC6342781789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4366C8C-CF79-4E76-B5E3-DC6342781789}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,62 @@
+<Configuration>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="D:\Projects\C#.NETs\ADEditor\frmADEditor.cs" offset="30821" line="939" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\ADEditor\ADManager.ini" offset="152" line="-1" column="-1" />
+      <TrackedFile location="D:\Projects\C#.NETs\ADEditor\ADManager.ini.org" offset="0" line="-1" column="-1" />
+      <TrackedFile location="D:\Projects\C#.NETs\ADEditor\AssemblyInfo.cs" offset="68" line="0" column="0" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckBox">
+      <Item value="Checked" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Tag" priority="1" />
+      <Item value="Text" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToFileTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DirectoryServices.PropertyCollection">
+      <Item value="Values" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DirectoryServices.DirectoryEntry">
+      <Item value="Close" priority="2" />
+      <Item value="AuthenticationType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding.UTF8">
+      <Item value="GetBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="ToLower" priority="0" />
+      <Item value="Substring" priority="0" />
+      <Item value="IndexOf" priority="1" />
+      <Item value="LastIndexOf" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolTip">
+      <Item value="SetToolTip" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ActiveDs.LargeInteger">
+      <Item value="HighPart" priority="2" />
+      <Item value="LowPart" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.InteropServices.COMException">
+      <Item value="ErrorCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding.Default">
+      <Item value="GetString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="FullName" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+</Configuration>

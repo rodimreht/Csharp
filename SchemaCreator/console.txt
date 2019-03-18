@@ -1,0 +1,12 @@
+StreamReader myReader;
+            ProcessStartInfo psi = new ProcessStartInfo();
+            psi.UseShellExecute = false;
+            psi.WindowStyle = ProcessWindowStyle.Normal;
+            psi.FileName = "netstat.exe";
+            psi.Arguments = "-an";
+            psi.CreateNoWindow = true;
+            psi.RedirectStandardInput = false;
+            psi.RedirectStandardOutput = true;
+            Process proc = Process.Start(psi);
+            myReader = proc.StandardOutput;
+            listView1.Items.Clear();

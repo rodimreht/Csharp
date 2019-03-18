@@ -1,0 +1,35 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="MachineName" priority="0" />
+      <Item value="UserDomainName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="ToLower" priority="0" />
+      <Item value="Equals" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GetSid.SidTranslator">
+      <Item value="GetSid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.Dns">
+      <Item value="GetHostName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment.UserDomainName">
+      <Item value="ToLower" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="D:\Projects\C#.NETs\GetSid\GetSid\CMain.cs" offset="886" line="0" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\GetSid\GetSid\SidTranslator.cs" offset="2222" line="28" column="0" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+</Configuration>

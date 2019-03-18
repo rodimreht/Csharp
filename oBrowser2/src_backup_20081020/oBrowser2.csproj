@@ -1,0 +1,197 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CB63BC9-D7D8-40F2-9DFF-B8DC2C1615F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>oBrowser2</RootNamespace>
+    <AssemblyName>oBrowser2</AssemblyName>
+    <ApplicationIcon>Joystick.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;INTERNAL_USE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrowserExtendedNavigatingEventArgs.cs" />
+    <Compile Include="ColonyEventArgs.cs" />
+    <Compile Include="frmFleetSaving.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFleetSaving.Designer.cs">
+      <DependentUpon>frmFleetSaving.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OB2Security.cs" />
+    <Compile Include="ExpeditionInfo.cs" />
+    <Compile Include="ExtendedWebBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FirefoxControl.cs" />
+    <Compile Include="frmEventAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEventAlarm.Designer.cs">
+      <DependentUpon>frmEventAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMission.Designer.cs">
+      <DependentUpon>frmMission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResCollect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResCollect.Designer.cs">
+      <DependentUpon>frmResCollect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ini.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxEx.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="NVItem.cs" />
+    <Compile Include="OB2Util.cs" />
+    <Compile Include="OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsForm.designer.cs">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResCollectingInfo.cs" />
+    <Compile Include="ResourceInfo.cs" />
+    <Compile Include="SendSMTP.cs" />
+    <Compile Include="SmtpMailInfo.cs" />
+    <Compile Include="SoundPlayer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEventAlarm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEventAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFleetSaving.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFleetSaving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMission.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResCollect.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmResCollect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsForm.resx">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ResourceCollector.cs" />
+    <Compile Include="SendSMS.cs" />
+    <Compile Include="SettingsHelper.cs" />
+    <Compile Include="StickyWindow.cs" />
+    <Compile Include="UnsafeNativeMethods.cs" />
+    <Compile Include="UrlContext.cs" />
+    <Compile Include="WebCall.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Joystick.ico" />
+    <Content Include="malfound.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="newalert.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="release_note.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>@"C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\ngen.exe" uninstall /nologo /silent "$(TargetPath)" &gt; NUL
+@"C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\ngen.exe" install /nologo /silent "$(TargetPath)"
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

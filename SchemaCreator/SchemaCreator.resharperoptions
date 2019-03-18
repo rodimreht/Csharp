@@ -1,0 +1,57 @@
+<Configuration>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="D:\Projects\C#.NETs\SchemaCreator\SchemaCreator\frmMain.cs" offset="10099" line="0" column="0" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="Exists" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="ScrollBars" priority="1" />
+      <Item value="ScrollToCaret" priority="0" />
+      <Item value="SelectionLength" priority="0" />
+      <Item value="Text" priority="6" />
+      <Item value="Enabled" priority="0" />
+      <Item value="BackColor" priority="0" />
+      <Item value="SelectionStart" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="FileName" priority="0" />
+      <Item value="ShowDialog" priority="0" />
+      <Item value="RestoreDirectory" priority="0" />
+      <Item value="Filter" priority="0" />
+      <Item value="DefaultExt" priority="1" />
+      <Item value="Title" priority="0" />
+      <Item value="FilterIndex" priority="0" />
+      <Item value="Multiselect" priority="0" />
+      <Item value="InitialDirectory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="Close" priority="0" />
+      <Item value="ReadToEnd" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DialogResult">
+      <Item value="ToString" priority="0" />
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Enabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="Length" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

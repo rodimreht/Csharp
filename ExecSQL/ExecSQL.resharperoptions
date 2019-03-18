@@ -1,0 +1,88 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileShare">
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Data" priority="0" />
+      <Item value="IO" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data">
+      <Item value="SqlClient" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="Default" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadLine" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.CommandType">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileAccess">
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="CurrentDirectory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="FullName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="Trim" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.ProcessWindowStyle">
+      <Item value="Hidden" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="WaitForExit" priority="0" />
+      <Item value="Substring" priority="0" />
+      <Item value="Close" priority="1" />
+      <Item value="Connection" priority="0" />
+      <Item value="Length" priority="5" />
+      <Item value="WorkingDirectory" priority="0" />
+      <Item value="ExecuteNonQuery" priority="0" />
+      <Item value="CommandText" priority="0" />
+      <Item value="ToUpper" priority="0" />
+      <Item value="FileName" priority="0" />
+      <Item value="IndexOf" priority="1" />
+      <Item value="Equals" priority="0" />
+      <Item value="ConnectionTimeout" priority="0" />
+      <Item value="IsExists" priority="0" />
+      <Item value="ReadToEnd" priority="1" />
+      <Item value="CommandTimeout" priority="0" />
+      <Item value="Replace" priority="0" />
+      <Item value="CreateNoWindow" priority="0" />
+      <Item value="ToString" priority="0" />
+      <Item value="Open" priority="0" />
+      <Item value="WindowStyle" priority="0" />
+      <Item value="OpenText" priority="0" />
+      <Item value="FirstFoundPath" priority="0" />
+      <Item value="CommandType" priority="0" />
+      <Item value="Arguments" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileMode">
+      <Item value="Open" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="D:\Projects\C#.NETs\ExecSQL\OSql.cs" offset="1203" line="32" column="0" />
+      <TrackedFile location="D:\Projects\C#.NETs\ExecSQL\Which.cs" offset="1549" line="24" column="0" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+</Configuration>

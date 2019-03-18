@@ -1,0 +1,11 @@
+[LDAP]
+LDAP://real/dc=bmt,dc=com
+
+[Administrator]
+cn=ssoadmin,cn=Users,dc=bmt,dc=com
+
+[AdminPassword]
+ssoadmin
+
+[Source]
+OU=Members

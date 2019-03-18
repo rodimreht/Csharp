@@ -1,0 +1,157 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3487FA63-ED8D-4C0C-B216-21931C552F06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SNMPTrapSender</RootNamespace>
+    <AssemblyName>SNMPTrapSender</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ShapSnmpLib\BitString.cs" />
+    <Compile Include="ShapSnmpLib\Bool.cs" />
+    <Compile Include="ShapSnmpLib\ByteTool.cs" />
+    <Compile Include="ShapSnmpLib\Counter32.cs" />
+    <Compile Include="ShapSnmpLib\EndOfMibView.cs" />
+    <Compile Include="ShapSnmpLib\ErrorCode.cs" />
+    <Compile Include="ShapSnmpLib\Gauge32.cs" />
+    <Compile Include="ShapSnmpLib\GeneralString.cs" />
+    <Compile Include="ShapSnmpLib\GenericCode.cs" />
+    <Compile Include="ShapSnmpLib\GetNextRequestMessage.cs" />
+    <Compile Include="ShapSnmpLib\GetNextRequestPdu.cs" />
+    <Compile Include="ShapSnmpLib\GetRequestMessage.cs" />
+    <Compile Include="ShapSnmpLib\GetRequestPdu.cs" />
+    <Compile Include="ShapSnmpLib\GetResponseMessage.cs" />
+    <Compile Include="ShapSnmpLib\GetResponsePdu.cs" />
+    <Compile Include="ShapSnmpLib\Integer32.cs" />
+    <Compile Include="ShapSnmpLib\Integer64.cs" />
+    <Compile Include="ShapSnmpLib\IP.cs" />
+    <Compile Include="ShapSnmpLib\ISnmpData.cs" />
+    <Compile Include="ShapSnmpLib\ISnmpMessage.cs" />
+    <Compile Include="ShapSnmpLib\ISnmpPdu.cs" />
+    <Compile Include="ShapSnmpLib\Manager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShapSnmpLib\MessageFactory.cs" />
+    <Compile Include="ShapSnmpLib\Mib\AgentCapabilities.cs" />
+    <Compile Include="ShapSnmpLib\Mib\Choice.cs" />
+    <Compile Include="ShapSnmpLib\Mib\ConstructHelper.cs" />
+    <Compile Include="ShapSnmpLib\Mib\Definition.cs" />
+    <Compile Include="ShapSnmpLib\Mib\DefinitionType.cs" />
+    <Compile Include="ShapSnmpLib\Mib\Exports.cs" />
+    <Compile Include="ShapSnmpLib\Mib\IConstruct.cs" />
+    <Compile Include="ShapSnmpLib\Mib\IDefinition.cs" />
+    <Compile Include="ShapSnmpLib\Mib\IEntity.cs" />
+    <Compile Include="ShapSnmpLib\Mib\Imports.cs" />
+    <Compile Include="ShapSnmpLib\Mib\ImportsFrom.cs" />
+    <Compile Include="ShapSnmpLib\Mib\IObjectTree.cs" />
+    <Compile Include="ShapSnmpLib\Mib\ITypeAssignment.cs" />
+    <Compile Include="ShapSnmpLib\Mib\Lexer.cs" />
+    <Compile Include="ShapSnmpLib\Mib\Macro.cs" />
+    <Compile Include="ShapSnmpLib\Mib\MibDocument.cs" />
+    <Compile Include="ShapSnmpLib\Mib\MibModule.cs" />
+    <Compile Include="ShapSnmpLib\Mib\ModuleCompliance.cs" />
+    <Compile Include="ShapSnmpLib\Mib\ModuleIdentity.cs" />
+    <Compile Include="ShapSnmpLib\Mib\NotificationGroup.cs" />
+    <Compile Include="ShapSnmpLib\Mib\NotificationType.cs" />
+    <Compile Include="ShapSnmpLib\Mib\ObjectGroup.cs" />
+    <Compile Include="ShapSnmpLib\Mib\ObjectIdentity.cs" />
+    <Compile Include="ShapSnmpLib\Mib\ObjectRegistry.cs" />
+    <Compile Include="ShapSnmpLib\Mib\ObjectTree.cs" />
+    <Compile Include="ShapSnmpLib\Mib\ObjectType.cs" />
+    <Compile Include="ShapSnmpLib\Mib\OidValueAssignment.cs" />
+    <Compile Include="ShapSnmpLib\Mib\Sequence.cs" />
+    <Compile Include="ShapSnmpLib\Mib\SharpMibException.cs" />
+    <Compile Include="ShapSnmpLib\Mib\Symbol.cs" />
+    <Compile Include="ShapSnmpLib\Mib\TextualConvention.cs" />
+    <Compile Include="ShapSnmpLib\Mib\TrapType.cs" />
+    <Compile Include="ShapSnmpLib\Mib\TypeAssignment.cs" />
+    <Compile Include="ShapSnmpLib\NoSuchInstance.cs" />
+    <Compile Include="ShapSnmpLib\NoSuchObject.cs" />
+    <Compile Include="ShapSnmpLib\Null.cs" />
+    <Compile Include="ShapSnmpLib\ObjectIdentifier.cs" />
+    <Compile Include="ShapSnmpLib\OctetString.cs" />
+    <Compile Include="ShapSnmpLib\PduCounter.cs" />
+    <Compile Include="ShapSnmpLib\Real.cs" />
+    <Compile Include="ShapSnmpLib\Resource.Designer.cs" />
+    <Compile Include="ShapSnmpLib\Sequence.cs" />
+    <Compile Include="ShapSnmpLib\SetRequestMessage.cs" />
+    <Compile Include="ShapSnmpLib\SetRequestPdu.cs" />
+    <Compile Include="ShapSnmpLib\SharpErrorException.cs" />
+    <Compile Include="ShapSnmpLib\SharpOperationException.cs" />
+    <Compile Include="ShapSnmpLib\SharpSnmpException.cs" />
+    <Compile Include="ShapSnmpLib\SharpTimeoutException.cs" />
+    <Compile Include="ShapSnmpLib\SnmpDataFactory.cs" />
+    <Compile Include="ShapSnmpLib\SnmpType.cs" />
+    <Compile Include="ShapSnmpLib\TimeTicks.cs" />
+    <Compile Include="ShapSnmpLib\TrapListener.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShapSnmpLib\TrapV1Message.cs" />
+    <Compile Include="ShapSnmpLib\TrapV1Pdu.cs" />
+    <Compile Include="ShapSnmpLib\TrapV1ReceivedEventArgs.cs" />
+    <Compile Include="ShapSnmpLib\TrapV2Message.cs" />
+    <Compile Include="ShapSnmpLib\TrapV2Pdu.cs" />
+    <Compile Include="ShapSnmpLib\TrapV2ReceivedEventArgs.cs" />
+    <Compile Include="ShapSnmpLib\Variable.cs" />
+    <Compile Include="ShapSnmpLib\VersionCode.cs" />
+    <Compile Include="TrapTrigger.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrapSender.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ShapSnmpLib\license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ShapSnmpLib\Manager.resx">
+      <DependentUpon>Manager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShapSnmpLib\Resource.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShapSnmpLib\TrapListener.resx">
+      <DependentUpon>TrapListener.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShapSnmpLib\Microsoft.VersionNumber.targets" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
