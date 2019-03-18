@@ -1,0 +1,15 @@
+dn: CN=nu!00000011!,OU=Members,DC=bmt,DC=net
+changetype: add
+objectClass: top
+objectClass: netmarbleuser
+cn: nu!00000011!
+displayName: 테스터
+mail: nu!00000011!@netmarble.net
+uno: 00000011
+upwd: pw00000011
+ugrade: 01
+uprofile: 테스터00000011의 프로필입니다.
+uzipcode: 135712
+uaddr: 서울특별시 강남구 대치4동 샹제리제센터 B동 204호
+uregdate: 2003-05-27 10:32:54
+resRegNum: 8305101000011

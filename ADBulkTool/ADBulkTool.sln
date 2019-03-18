@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADBulkTool", "ADBulkTool.csproj", "{30828F90-7172-444F-AFD0-C8CE9419E605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkJobInvoker", "BulkJobInvoker\BulkJobInvoker.csproj", "{93A5310B-12FD-4DC5-A90C-468560C7BB0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSplit", "FileSplit\FileSplit.csproj", "{E15EEF25-2396-4D78-ACE4-6E59828401B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBBulkJob", "DBBulkJob\DBBulkJob.csproj", "{CCC7E492-30A0-4168-A7EA-9B6C028CD040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDIFCreator", "LDIFCreator\LDIFCreator.csproj", "{315FE341-E042-4D03-95B8-6F8C04EE82E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManage", "UserManage\UserManage.csproj", "{85FCD75C-A36F-47A8-BA18-089574EE00DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30828F90-7172-444F-AFD0-C8CE9419E605}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{30828F90-7172-444F-AFD0-C8CE9419E605}.Debug|Default.Build.0 = Debug|Any CPU
+		{30828F90-7172-444F-AFD0-C8CE9419E605}.Release|Default.ActiveCfg = Release|Any CPU
+		{30828F90-7172-444F-AFD0-C8CE9419E605}.Release|Default.Build.0 = Release|Any CPU
+		{93A5310B-12FD-4DC5-A90C-468560C7BB0C}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{93A5310B-12FD-4DC5-A90C-468560C7BB0C}.Debug|Default.Build.0 = Debug|Any CPU
+		{93A5310B-12FD-4DC5-A90C-468560C7BB0C}.Release|Default.ActiveCfg = Release|Any CPU
+		{93A5310B-12FD-4DC5-A90C-468560C7BB0C}.Release|Default.Build.0 = Release|Any CPU
+		{E15EEF25-2396-4D78-ACE4-6E59828401B6}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{E15EEF25-2396-4D78-ACE4-6E59828401B6}.Debug|Default.Build.0 = Debug|Any CPU
+		{E15EEF25-2396-4D78-ACE4-6E59828401B6}.Release|Default.ActiveCfg = Release|Any CPU
+		{E15EEF25-2396-4D78-ACE4-6E59828401B6}.Release|Default.Build.0 = Release|Any CPU
+		{CCC7E492-30A0-4168-A7EA-9B6C028CD040}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{CCC7E492-30A0-4168-A7EA-9B6C028CD040}.Debug|Default.Build.0 = Debug|Any CPU
+		{CCC7E492-30A0-4168-A7EA-9B6C028CD040}.Release|Default.ActiveCfg = Release|Any CPU
+		{CCC7E492-30A0-4168-A7EA-9B6C028CD040}.Release|Default.Build.0 = Release|Any CPU
+		{315FE341-E042-4D03-95B8-6F8C04EE82E1}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{315FE341-E042-4D03-95B8-6F8C04EE82E1}.Debug|Default.Build.0 = Debug|Any CPU
+		{315FE341-E042-4D03-95B8-6F8C04EE82E1}.Release|Default.ActiveCfg = Release|Any CPU
+		{315FE341-E042-4D03-95B8-6F8C04EE82E1}.Release|Default.Build.0 = Release|Any CPU
+		{85FCD75C-A36F-47A8-BA18-089574EE00DA}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{85FCD75C-A36F-47A8-BA18-089574EE00DA}.Debug|Default.Build.0 = Debug|Any CPU
+		{85FCD75C-A36F-47A8-BA18-089574EE00DA}.Release|Default.ActiveCfg = Release|Any CPU
+		{85FCD75C-A36F-47A8-BA18-089574EE00DA}.Release|Default.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4331D005-0ED3-4A4B-BB57-4707D31F8EE3}
+	EndGlobalSection
+EndGlobal
