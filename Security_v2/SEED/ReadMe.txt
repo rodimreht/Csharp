@@ -1,34 +1,6 @@
-º» ¼Ò½º´Â KISA¿¡¼­ Á¦°øÇÏ´Â C ¹öÀüÀÇ SEED ¾ÏÈ£È­ ÄÚµå¸¦
-C# ¹öÀüÀ¸·Î ¸¶ÀÌ±×·¹ÀÌ¼Ç ÇÑ °ÍÀÔ´Ï´Ù.
+ë³¸ ì†ŒìŠ¤ëŠ” KISAì—ì„œ ì œê³µí•˜ëŠ” C ë²„ì „ì˜ SEED ì•”í˜¸í™” ì½”ë“œë¥¼
+C# ë²„ì „ìœ¼ë¡œ ë§ˆì´ê·¸ë ˆì´ì…˜ í•œ ê²ƒì— ëª‡ ê°€ì§€ ì¶”ê°€ ê¸°ëŠ¥ì„ ë¶™ì¸ ê²ƒ.
 
-SEED ¾ÏÈ£È­ ¾Ë°í¸®ÁòÀ» ÀÌÇØÇÏ°í ¸¸µç °ÍÀÌ ¾Æ´Ï¶ó,
-C ¼Ò½º¸¦ ±×´ë·Î C#¿¡¼­ ÄÄÆÄÀÏµÇ°Ô²û¸¸ ¼öÁ¤ÇÑ °ÍÀÌ¶ó¼­
-C#ÀûÀÎ Ãø¸é¿¡¼­´Â ºñÈ¿À²ÀûÀÎ ÄÚµå°¡ µé¾î°¡ ÀÖÀ» ¼öµµ ÀÖ½À´Ï´Ù:D
+ë” ë§Žì€ ë‚´ìš©ì€ ì•„ëž˜ ë¸”ë¡œê·¸ë¥¼ ì°¸ì¡°í•˜ê¸° ë°”ëžŒ.
 
-SEED Å¬·¡½ºÀÇ Encrypt/Decrypt ¸Þ¼Òµå´Â Æ¯º°ÇÑ ÀÔ·ÂÃ¼Å©¸¦ ÇÏ°Ô µÇ¾î ÀÖÁö´Â ¾Ê½À´Ï´Ù...
-Àß¸øµÈ ¾ÏÈ£¹®À» ÀÔ·ÂÇÒ °æ¿ì, ·±Å¸ÀÓ ¿À·ù°¡ ¹ß»ýÇÕ´Ï´Ù:D
-
-SEED ¾ÏÈ£È­´Â 16¹ÙÀÌÆ® ´ëÄªÅ° ¾ÏÈ£È­·Î, 16¹ÙÀÌÆ® ´ÜÀ§·Î µ¥ÀÌÅÍ¸¦ ¾ÏÈ£È­ÇÕ´Ï´Ù.
-16¹ÙÀÌÆ®º¸´Ù ÀûÀº ¹ÙÀÌÆ®ÀÇ ¿ø¹®Àº ¾ÏÈ£È­µÈ ÈÄ¿¡´Â 16¹ÙÀÌÆ®·Î Ãâ·ÂÀÌ µË´Ï´Ù.
-
-Àû¿ëÇÑ ÇÁ·ÎÁ§Æ®¿¡¼­ »ó´ëÃø ÀÚ¹Ù SEED ÄÚµå¿¡¼­ CBC-PAD ¹æ½ÄÀ¸·Î ¾ÏÈ£È­¸¦ ¼öÇàÇÏ°í ÀÖ¾ú±â ¶§¹®¿¡,
-SEED Å¬·¡½º¿¡µµ ¿øº» C ¼Ò½º ÄÚµå¿¡´Â ¾ø´Â CBC-PAD ¹æ½ÄÀÌ Ãß°¡µÇ¾î ÀÖ½À´Ï´Ù.
-ÀÏ´Ü ±× ºÎºÐÀ» »èÁ¦ÇÏÁö´Â ¾Ê°í cbcPad ÀÎ¼ö¸¦ ¹Þ¾Æ ºÐ±âÇÒ ¼ö ÀÖµµ·Ï ¼öÁ¤Çß½À´Ï´Ù.
-
-CBC ¹æ½ÄÀÇ ÃÊ±â°ª IV´Â nullÀ» »ç¿ëÇÏ°í ÀÖ½À´Ï´Ù. ´Ù¸¥ °ªÀ» »ç¿ëÇÒ °æ¿ì¿¡´Â ¼öÁ¤ÇÏ¿©¾ß ÇÕ´Ï´Ù.
-
-¿øº» C ¼Ò½º¿¡¼­ »ç¿ëÇÏ´Â ¹æ½ÄÀÌ No PaddingÀÇ ECB ¹æ½ÄÀÔ´Ï´Ù.
-ÀÌ ¹æ½Ä°ú CBC-PAD ¹æ½ÄÀ» Á¦¿ÜÇÑ ´Ù¸¥ ¹æ½ÄÀº º» C# ¼Ò½º¿¡´Â Àû¿ëµÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù.
-
-
-KISA¿¡¼­ C ¼Ò½º ÀÚÃ¼¸¦ °ø°³ÇÏ°í ÀÖÀ¸¹Ç·Î Å« ¹®Á¦°¡ ¾øÀ» °Å¶ó ÆÇ´Ü,
-º» ¼Ò½º´Â µ¥ºêÇÇ¾Æ(www.devpia.com) C# ÀÚ·á½Ç¿¡¸¸ ¾÷·ÎµåÇÕ´Ï´Ù.
-¹®Á¦°¡ µÉ °æ¿ì, µ¥ºêÇÇ¾ÆÀÇ ÀÚ·á´Â ÀÚÃ¼ »èÁ¦ÇÏ°Ú½À´Ï´Ù.
-
-¼Ò½º¿¡ ÁÖ¼®Àº...´ç¿¬È÷ ¾ø½À´Ï´Ù! C ¼Ò½º ±×´ë·Î º¹»çÇÑ °Å´Ï±î¿ä! :D
-¼Ò½º¿¡ ´ëÇÑ ¹®ÀÇ´Â...¹ÞÁö ¾Ê½À´Ï´Ù:D Àúµµ ¾ÏÈ£È­ ¾Ë°í¸®ÁòÀº ¸ô¶ó¿ä:D
-CBC-PAD °ü·ÃÇØ¼­ Ãß°¡ÇÑ ³»¿ëÀº Encrypt/Decrypt ¸Þ¼ÒµåÀÇ cbcPad ÀÎ¼ö¸¦ ÂüÁ¶ÇÏ½Ã¸é µË´Ï´Ù.
-
-
-ÀÛ¼ºÀÚ: ¼­¾Æ¸§ (gamm4266@naver.com)
-ÀÛ¼ºÀÏ: 2006³â 6¿ù 21ÀÏ
+https://thermidor.tistory.com/430
